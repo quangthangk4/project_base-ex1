@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <title>Project_base-1</title>
+</head>
+
+<body>
+    <div id="header">
+        <ul class="nav">
+            <li class="header__item">
+                <a href="#home" class="header__item-link">Home</a>
+            </li>
+            <li class="header__item">
+                <a href="#about" class="header__item-link">About</a>
+            </li>
+            <li class="header__item">
+                <a href="#photos" class="header__item-link">Photos</a>
+            </li>
+            <li class="header__item">
+                <a href="#contact" class="header__item-link">Contact</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="side-bar">
+        <div class="side-bar__img--overlay">
+            <img src="./assets/img/man_smoke.jpg" alt="man smoke" class="side-bar__img">
+        </div>
+        <ul class="nav">
+            <li class="side-bar__item side-bar__item--home">
+                <a href="#home" class="side-bar__item-link">
+                    <i class="fa-solid fa-house"></i>
+                    <p>home</p>
+                </a>
+            </li>
+            <li class="side-bar__item">
+                <a href="#about" class="side-bar__item-link">
+                    <i class="fa-solid fa-user"></i>
+                    <p>about</p>
+                </a>
+            </li>
+            <li class="side-bar__item">
+                <a href="#photos" class="side-bar__item-link">
+                    <i class="fa-solid fa-eye"></i>
+                    <p>photos</p>
+                </a>
+            </li>
+            <li class="side-bar__item">
+                <a href="#contact" class="side-bar__item-link">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>contact</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class="grid wide">
+            <div class="home" id="home">
+                <h1 class="home__introduce">I'm John Doe.</h1>
+                <h1 class="home__introduce on-moblie">John Doe.</h1>
+                <p class="home__job">Photographer and Web Designer.</p>
+                <img src="./assets/img/man_smoke.jpg" alt="man smoke" class="home__img">
+            </div>
+
+            <div id="about">
+                <div class="about__myname">
+                    <h2 class="about__heading heading-color">My Name</h2>
+                    <p class="about__myname-introduce">Some text about me. Some text about me. I am lorem ipsum
+                        consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        minim
+                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                        aute
+                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                        id
+                        est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                        magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat.
+                    </p>
+                </div>
+
+                <div class="about__myskill">
+                    <h2 class="about__myskill-heading heading-color">My Skills</h2>
+                    <p class="about__myskill-name">Photography</p>
+                    <div class="about__myskill-chart">
+                        <div class="about__myskill-chart-gray about__myskill-chart--photography"></div>
+                    </div>
+
+                    <p class="about__myskill-name">Web Design</p>
+                    <div class="about__myskill-chart">
+                        <div class="about__myskill-chart-gray about__myskill-chart--webDesign"></div>
+                    </div>
+
+                    <p class="about__myskill-name">Photoshop</p>
+                    <div class="about__myskill-chart">
+                        <div class="about__myskill-chart-gray about__myskill-chart--photoshop"></div>
+                    </div>
+
+                    <!-- statistical -->
+                    <div class="row no-gutters about__myskill-statistical">
+                        <div class="col l-3 m-3 c-12">
+                            <h3 class="about__myskill-statistical-number">11+</h3>
+                            <p class="about__myskill-statistical-name">Partners</p>
+                        </div>
+
+                        <div class="col l-3 m-3 c-12">
+                            <h3 class="about__myskill-statistical-number">55+</h3>
+                            <p class="about__myskill-statistical-name">Projects Done</p>
+                        </div>
+
+                        <div class="col l-3 m-3 c-12">
+                            <h3 class="about__myskill-statistical-number">89+</h3>
+                            <p class="about__myskill-statistical-name">Happy Clients</p>
+                        </div>
+
+                        <div class="col l-3 m-3 c-12">
+                            <h3 class="about__myskill-statistical-number">150+</h3>
+                            <p class="about__myskill-statistical-name">Meetings</p>
+                        </div>
+                    </div>
+
+                    <button class="about__myskill-resume">
+                        <i class="fa-solid fa-download"></i>
+                        Download Resume
+                    </button>
+                </div>
+
+                <div class="about__myprice">
+                    <h2 class="about__myprice-heading heading-color">My Price</h2>
+                    <div class="row about__myprice-package">
+                        <div class="col l-6 m-6 c-12 about__myprice-package-list">
+                            <h3 class="about__myprice-package-item about__myprice-package--heading">Basic</h3>
+                            <p class="about__myprice-package-item">Web Design</p>
+                            <p class="about__myprice-package-item">Photography</p>
+                            <p class="about__myprice-package-item">5GB Storage</p>
+                            <p class="about__myprice-package-item">Mail Support</p>
+                            <h2 class="about__myprice-package-item about__myprice-package-item--price">
+                                $ 10
+                                <span class="small">per month</span>
+                            </h2>
+                            <div class="about__myprice-package-item about__myprice-package-item--btn">
+                                <button class="about__myprice-signup">Sign Up</button>
+                            </div>
+                        </div>
+
+                        <div class="col l-6 m-6 c-12 about__myprice-package-list about__myprice-package-list-two-mobile">
+                            <h3 class="about__myprice-package-item about__myprice-package--heading">Pro</h3>
+                            <p class="about__myprice-package-item">Web Design</p>
+                            <p class="about__myprice-package-item">Photography</p>
+                            <p class="about__myprice-package-item">50GB Storage</p>
+                            <p class="about__myprice-package-item">Endless Support</p>
+                            <h2 class="about__myprice-package-item about__myprice-package-item--price">
+                                $ 25
+                                <span class="small">per month</span>
+                            </h2>
+                            <div class="about__myprice-package-item about__myprice-package-item--btn">
+                                <button class="about__myprice-signup">Sign Up</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about__myreputation">
+                    <h2 class="about__myreputation-heading heading-color">My Reputation</h2>
+                    <div class="about__myreputation-list">
+                        <div class="about__myreputation-item">
+                            <img src="./assets/img/bandmember.jpg" alt="bandmember"
+                                class="about__myreputation-item-img">
+                            <div class="about__myreputation-item-infor">
+                                <div class="about__myreputation-infor-div">
+                                    <p class="about__myreputation-infor-name">Chris Fox.</p>
+                                    <p class="about__myreputation-infor-job">CEO at Mighty Schools.</p>
+                                </div>
+                                <div class="about__myreputation-dec">John Doe saved us from a web disaster.</div>
+                            </div>
+                        </div>
+
+                        <div class="about__myreputation-item">
+                            <img src="./assets/img/avatar_g2.jpg" alt="avatar_g2" class="about__myreputation-item-img">
+                            <div class="about__myreputation-item-infor">
+                                <div class="about__myreputation-infor-div">
+                                    <p class="about__myreputation-infor-name">Rebecca Flex.</p>
+                                    <p class="about__myreputation-infor-job">CEO at Company.</p>
+                                </div>
+
+                                <div class="about__myreputation-dec">No one is better than John Doe.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id="photos">
+                <h2 class="about__heading heading-color">My Photos</h2>
+                <div class="row sm-gutter">
+                    <div class="col l-6 m-6 c-12">
+                        <img src="./assets/img/photos/wedding.jpg" alt="wedding" class="img1">
+                        <img src="./assets/img/photos/rocks.jpg" alt="rocks" class="img2">
+                        <img src="./assets/img/photos/sailboat.jpg" alt="sailboat" class="img3">
+                    </div>
+
+                    <div class="col l-6 m-6 c-12">
+                        <img src="./assets/img/photos/underwater.jpg" alt="underwater" class="img4">
+                        <img src="./assets/img/photos/chef.jpg" alt="chef" class="img5">
+                        <img src="./assets/img/photos/wedding.jpg" alt="wedding" class="img6">
+                        <img src="./assets/img/photos/p6.jpg" alt="p6" class="img7">
+                    </div>
+                </div>
+            </div>
+
+            <div id="contact">
+                <h2 class="about__heading heading-color">Contact Me</h2>
+                <div class="about__contact-infor">
+                    <p class="about__contact-infor-detail">
+                        <i class="fa-solid fa-location-dot"></i>
+                        TP.HCM, VIETNAM
+                    </p>
+                    <p class="about__contact-infor-detail">
+                        <i class="fa-solid fa-phone"></i>
+                        Phone: +84 123456789
+                    </p>
+                    <p class="about__contact-infor-detail">
+                        <i class="fa-solid fa-envelope"></i>
+                        Email: mail@gmail.com
+                    </p>
+                </div>
+                <p class="about__contact-mesform">Let's get in touch. Send me a message:</p>
+                <form class="about__contact-form" action="#">
+                    <input class="about__contact-form-input" type="text" required name="text" id="text"
+                        placeholder="Name">
+                    <input class="about__contact-form-input" type="text" required name="text" id="text"
+                        placeholder="Email">
+                    <input class="about__contact-form-input" type="text" required name="text" id="text"
+                        placeholder="Subject">
+                    <input class="about__contact-form-input" type="text" required name="text" id="text"
+                        placeholder="Message">
+                    <button type="submit" class="about__contact-form-submit">
+                        <i class="fa-solid fa-paper-plane"></i>
+                        SEND MESSAGE
+                    </button>
+                </form>
+            </div>
+
+            <footer id="footer">
+                <div class="footer__socialnet">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-snapchat"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <p class="footer__mess">22/06/2024 - Trang web được xây dựng bởi
+                    <a href="https://www.facebook.com/profile.php?id=100024503231046">Quang Thắng</a>
+                </p>
+            </footer>
+        </div>
+    </div>
+
+</body>
+
+</html>

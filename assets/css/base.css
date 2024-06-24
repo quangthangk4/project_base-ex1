@@ -1,0 +1,26 @@
+:root {
+    --black-color: #000;
+    --gray-white-color: #f1f1f1;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Montserrat", "Roboto" ,sans-serif;
+    box-sizing: border-box;
+    color: #757575;
+    line-height: 1.5;
+}
+
+ul {
+    list-style: none;
+}
+
+.heading-color {
+    color: var(--gray-white-color);
+}
